@@ -1,0 +1,35 @@
+.Button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+   
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Next {
+    color: #5C9210;
+}
+
+.Previous {
+    color: #944317;
+}
+.Details {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.Details:hover {
+  background-color: #555555;
+  color: white;
+}

@@ -1,16 +1,14 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button'
-import ShortDescription from '../ShortDescription/ShortDescription';
-
+import ButtonNews from '../../UI/ButtonNews/ButtonNews';
 const Img = (props) => 
     <Card>
         <Card.Img variant="top" src={props.srcImage} alt="News Soccer"/>
         <Card.Body>
             <Card.Text>
-                <ShortDescription shortDescription="ShortParagrapghContaining News"></ShortDescription>
+              {props.shortDescription}
             </Card.Text>
-            <Button variant="primary">Curious ?</Button>
+        <ButtonNews btnType='Details' click={props.clickDetail}> ' Curious ?</ButtonNews>   
         </Card.Body>
     </Card>
 
