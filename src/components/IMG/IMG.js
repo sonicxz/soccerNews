@@ -6,9 +6,9 @@ const Img = (props) =>
         <Card.Img variant="top" src={props.srcImage} alt="News Soccer"/>
         <Card.Body>
             <Card.Text>
-              {props.shortDescription}
+                <p>{props.shortDescription}</p>
             </Card.Text>
-        <ButtonNews btnType='Details' click={props.clickDetail}> ' Curious ?</ButtonNews>   
+        <ButtonNews btnType='Details' click={props.clickDetail}> &nbsp; Wanna Know More<span>😃</span></ButtonNews>   
         </Card.Body>
     </Card>
 

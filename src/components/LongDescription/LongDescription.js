@@ -7,7 +7,7 @@ const LongDescription = (props) =>
     <AUX>
     <Backdrop show={props.show} clickRem={props.clickRem} />
     <div className={LongCSS.LongDescription} style={{
-        transform: props.show ? 'translateY(0)' : 'translateY(-100vh)',
+        transform: props.show ? 'translateY(-28vh)' : 'translateY(100vh)',
         opacity: props.show ? '1' : '0'
     }}>
         {props.children}

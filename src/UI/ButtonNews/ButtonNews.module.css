@@ -19,9 +19,17 @@
 .Next {
     color: #5C9210;
 }
+.Next:hover{
+  background-color: #555555;
+  color: white;
+}
 
 .Previous {
     color: #944317;
+}
+.Previous:hover {
+  background-color: #555555;
+  color: white;
 }
 .Details {
   background-color: white;
